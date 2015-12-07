@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <
+title>Slack Application Engineer Coding Exercise</title>
+  <
+    
+    script 
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $("#fetchUrlForm").submit(function (event) {
+      alert("Fetch for " + $("#fetchUrlButton").val())
+    })
+  });
+  </script>
+</head>
+<body>
+  <h1>Slack Application Engineer Coding Exercise</h1>
+  <p>Here's some text too
+  <form id="fetchUrlForm">
+    <label for="fetchUrlButton">Fetch URL</label>
+    <input id="fetchUrlButton" name="fetchUrlButton" type="text" class="required">
+  </form>
+</body>
+</html>
